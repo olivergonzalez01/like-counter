@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="midterm.css">
+</head>
+
+<body>
+
+<h1>Finally</h1>
+
+<p>Same deal as before:</p>
+<ul>
+  <li>You may use any resources except other people. Old assignments are fine. Google is fine.</li>
+  <li>You <strong>may not</strong> copy and paste code off the internet or use tools that
+    lookup and generate code for you. Write it yourself, in your own way.</li>
+  <li>Get your browser tools up, you're going to need them.</li>
+</ul>
+
+<p>In the directory with this <code>index.html</code> file are two subdirectories: <code>server</code> and <code>client</code>.</p>
+
+<p>Each has a pre-made <code>package.json</code> with everything set up. Open a shell in each subdirectory and do:</p>
+
+<pre>npm install</pre>
+
+<p>Alternatively, you could move an old node_modules into each. Here is what must be present in each:</p>
+<ul>
+  <li>server: express sqlite sqlite3 cors</li>
+  <li>client: the node_modules from A11 (create-react-app + axios)</li>
+</ul>
+
+<p>The <code>server.js</code> file already has all the needed module imports and configuration, you
+  only have to add routes.</p>
+
+<p>Start up the server with:</p>
+
+<pre>node (or nodemon) server.js</pre>
+
+<p>And the react client with:</p>
+
+<pre>npm run start</pre>
+
+<p>That should automatically open a new tab with the app and instructions.
+  If it doesn't: <a target="_blank" href="http://localhost:3000">http://localhost:3000</a></p>
+
+</body>
+</html>
+
+
